@@ -1,0 +1,86 @@
+	#contenu{
+		background: white;
+		/*height: 600px;*/
+		width: 75%;
+		margin: auto;
+		}
+		#centre{
+			position:relative;
+			background: cyan;
+			height: 500px;
+			width: 500px;
+			margin: auto;
+			}
+			#centre div{
+				position: absolute;
+				margin: 15px;
+				}
+				#topLeft{
+					border-top-left-radius: 25px;
+					top:0;
+					left:0;
+				}
+				#topRight{
+					border-top-right-radius: 25px;
+					top:0;
+					right:0;
+				}
+				#leftBottom{
+					border-bottom-left-radius: 25px;
+					bottom:0;
+					left:0;
+				}
+				#rightBottom{
+					border-bottom-right-radius: 25px;
+					right:0;
+					bottom:0;
+				}
+				.horizontal{
+					width:300px;
+					height: 150px;
+					background: red;
+				}
+				.vertical{
+					width:150px;
+					height: 300px;
+					background: blue;
+				}
+	#formations{
+		width: 80%;
+		margin: auto;
+		}
+
+		#formations section, #formations section{
+			float:left;
+			width: 45%;
+			}
+
+
+/************************************************/
+	#parcours article,
+	#formations article,
+	#competences article{
+		margin: 5px;
+		border: 1px solid;
+		border-radius: 5px;
+		padding: 10px;
+	}
+
+	#competences article{
+		/*width: 50%;*/
+	}
+	#presentation li,
+	#parcours li,
+	#formations li,
+	#competences li,
+	#interets li{
+		margin-left: 25px;
+	}
+	#interets{
+		width: 50%;
+		margin: auto;
+	}
+	#interets li{
+		font-size: 1.5em;
+	}
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Ma page structure</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bellefair&Lemonada&Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <meta name="description" content="Ma première page en HTML/CSS">
+    <!-- Les moteurs de recherches s'en servent pour les recherches -->
+
+    <meta charset="UTF-8">
+</head>
+<body>
+    <header>
+        <!-- Zone du haut , ex : bannière, logo, slogan -->
+        <div id="logo">
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+        </div>
+        <div id="slogan">
+            <h1>Mon premier site en HTML / CSS</h1>
+        </div>
+
+        <div id="social">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </div>
+        <div class="clear"></div>
+    </header>
+
+    <nav>
+        <a href="index.html">Structure</a>
+        <a href="texte.html">Texte</a>
+        <a href="selecteurs.html">Sélecteur</a>
+        <a href="images.html">Image</a>
+        <a href="position.html">Position</a>
+        <a href="zoning.html">Zoning</a>
+        <a href="tableau.html">Tableau</a>
+        <a href="liste.html">liste</a>
+        <a href="lien_menu.html">liens & menu</a>
+        <a href="formulaire.html">Formulaire</a>
+        <a href="multipedia.html" class="active">Multipedia</a>
+        <a href="animation.html">Animation</a>
+    </nav>
+
+    <main>
+        <a href="#logo"><button type="button"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></button></a>
+        <h2>Multimédia</h2>
+        <section class="videoFond">
+            <h3>Vidéo en fond</h3>
+            <!-- zone de contenu : titre, texte, regroupement thématique -->
+            <div class="videoTexte">
+                <video autoplay loop>
+                    <source src="video/videoBackground.webm" type="video/webm" />
+
+                </video>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h3>Vidéo Youtube</h3>
+            <iframe height="400" src="https://www.youtube.com/embed/06pj3w1c6l4" frameborder="0" allowfullscreen></iframe>
+
+        </section>
+
+        <section>
+            <h3>Audio</h3>
+            <h4>Format Mp3</h4>
+            <audio src="audio/son.mp3" controls></audio>
+
+            <h4>Format Ogg</h4>
+            <audio src="audio/son.ogg" controls></audio>
+        </section>
+
+        <section>
+            <h3>Google Maps</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2620.863146827367!2d2.3235277160305765!3d48.937048379295334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f2b2aeafa51%3A0xe5ba99ade19888d8!2s11+All%C3%A9e+Saint-Exup%C3%A9ry%2C+92390+Villeneuve-la-Garenne!5e0!3m2!1sfr!2sfr!4v1501487541866" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+    </main>
+    <footer>
+        <!-- zone du bas, ex : liens administratis, mentions légales, plan su site, CGU, CGV, contact, copyright -->
+    </footer>
+</body>
+</html>

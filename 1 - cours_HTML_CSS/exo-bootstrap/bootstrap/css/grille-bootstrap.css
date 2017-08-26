@@ -1,0 +1,27 @@
+.container{
+    border: 1px solid;
+}
+
+.bordureRouge{
+    border: 3px solid red;
+    padding: 5px;
+}
+
+.bordureJaune{
+    border: 3px solid yellow;
+    padding: 5px;
+}
+
+.bordureBleu{
+    border: 3px solid blue;
+    padding: 5px;
+}
+
+.bordureVert{
+    border: 3px solid green;
+    padding: 5px;
+}
+
+.inter{
+    padding: 20px;
+}

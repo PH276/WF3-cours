@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Ma page formulaire</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bellefair&Lemonada&Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <meta name="description" content="Ma page formulaire en HTML/CSS">
+    <!-- Les moteurs de recherches s'en servent pour les recherches -->
+
+    <meta charset="UTF-8">
+</head>
+<body>
+    <header>
+        <!-- Zone du haut , ex : bannière, logo, slogan -->
+        <div id="logo">
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+        </div>
+        <div id="slogan">
+            <h1>Mon premier site en HTML / CSS</h1>
+        </div>
+
+        <div id="social">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </div>
+        <div class="clear"></div>
+    </header>
+
+    <nav>
+            <a href="index.html">Structure</a>
+            <a href="texte.html">Texte</a>
+            <a href="selecteurs.html">Sélecteur</a>
+            <a href="images.html">Image</a>
+            <a href="position.html">Position</a>
+            <a href="zoning.html">Zoning</a>
+            <a href="tableau.html">Tableau</a>
+            <a href="liste.html">liste</a>
+            <a href="lien_menu.html">liens & menu</a>
+            <a href="formulaire.html" class="active">Formulaire</a>
+            <a href="multipedia.html">Multipedia</a>
+            <a href="animation.html">Animation</a>
+    </nav>
+
+    <main>
+        <a href="#logo"><button type="button"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></button></a>
+        <h2>Formulaire</h2>
+            <!-- zone de contenu : titre, texte, regroupement thématique -->
+            <section class='formulaire'>
+                <form method="post" action="url de destination" enctype="multipart/form-data">
+                    <label for="pseudo">Pseudo * : </label>
+                    <input type="text" id="pseudo" name="pseudo" required><br>
+
+                    <label for="prenom">Prénom : </label>
+                    <input type="text" id="prenom" name="prenom" placeholder="votre prénom" required><br>
+
+                    <label for="mdp">Mot de passe : </label>
+                    <input type="password" id="mdp" name="mdp"><br>
+
+                    <label for="email">Email : </label>
+                    <input type="email" id="email" name="email"><br>
+
+                    <label for="cv">CV : </label>
+                    <input type="file" id="cv" name="cv"><br>
+                    <p>Quels sont vos fruits préférés</p>
+                    <label for="orange">Orange : </label>
+                    <input type="checkbox" id="orange" name="orange" value="orange" checked>
+                    <label for="fraise">Fraise : </label>
+                    <input type="checkbox" id="fraise" name="fraise" value="fraise">
+                    <label for="poire">Poire : </label>
+                    <input type="checkbox" id="poire" name="fraise" value="poire"><br>
+
+                    <label for="cp">Code postal : </label>
+                    <input type="text" id="cp" name="cp" maxlength="5" pattern="[0-9]{5}" title="5 chiffres entre 0 à 9"><br>
+
+                    <label for="message">Message : </label>
+                    <textarea id="message" name="message" rows="5" cols="25" maxlength="5"></textarea><br><br>
+
+                    <input type="submit" name="Envoyer" value="Envoyer">
+                    <input type="reset" name="Annuler" value="Annuler">
+
+
+                </form>
+                <!-- zone supplémentaire de contenu -->
+
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <!-- zone du bas, ex : liens administratis, mentions légales, plan su site, CGU, CGV, contact, copyright -->
+    </footer>
+</body>
+</html>

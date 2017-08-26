@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Ma page zoning</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bellefair&Lemonada&Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <meta name="description" content="Mon zoning en HTML/CSS">
+    <!-- Les moteurs de recherches s'en servent pour les recherches -->
+    <meta charset="UTF-8">
+</head>
+<body>
+    <header>
+        <!-- Zone du haut , ex : bannière, logo, slogan -->
+        <div id="logo">
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+        </div>
+        <div id="slogan">
+            <h1>Mon premier site en HTML / CSS</h1>
+        </div>
+
+        <div id="social">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </div>
+        <div class="clear"></div>
+    </header>
+
+    <nav>
+            <a href="texte.html">Texte</a>
+            <a href="selecteurs.html">Sélecteur</a>
+            <a href="images.html">Image</a>
+            <a href="position.html">Position</a>
+            <a href="zoning.html" class="active">Zoning</a>
+            <a href="tableau.html">Tableau</a>
+            <a href="liste.html">liste</a>
+            <a href="lien_menu.html">liens & menu</a>
+            <a href="formulaire.html">Formulaire</a>
+            <a href="multipedia.html">Multipedia</a>
+            <a href="animation.html">Animation</a>
+    </nav>
+
+    <main>
+        <a href="#logo"><button type="button"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></button></a>
+        <a href="index.html">Structure</a>
+        <h2>Zonning</h2>
+        <section>
+            <h4>Zoning 1</h4>
+            <div id="zoning1">
+                <header>
+                    <p>Zone du haut</p>
+                </header>
+                <aside>
+                    <p>zone de gauche</p>
+                </aside>
+                <section>
+                    <p>zone de droite</p>
+                </section>
+                <div class="clear"></div>
+            </div>
+        </section>
+
+        <section>
+            <h4>Zoning 2</h4>
+            <div id="zoning2">
+                <header>
+                    <p>Zone du haut</p>
+                </header>
+                <aside>
+                    <p>zone de gauche</p>
+                </aside>
+                <section>
+                    <p>zone du centre</p>
+                </section>
+                <aside>
+                    <p>zone de droite</p>
+                </aside>
+                <div class="clear"></div>
+            </div>
+        </section>
+
+        <section>
+            <h4>Zoning 3</h4>
+            <div id="zoning3">
+                <section>
+                    <p>zone de gauche</p>
+                </section>
+                <section>
+                    <p>zone de droite</p>
+                </section>
+                <footer class="clear">
+                    <p>zone du bas</p>
+                </footer>
+            </div>
+        </section>
+
+        <section>
+            <h4>Zoning 4</h4>
+            <div id="zoning4">
+                <header>
+                    <p>zone du haut</p>
+                </header>
+                <nav>
+                    <p>zone du menu</p>
+                </nav>
+                <section>
+                    <p>zone principale</p>
+                </section>
+                <footer>
+                    <p>zone du bas</p>
+                </footer>
+            </div>
+        </section>
+
+        <section>
+            <h4>Zoning 5</h4>
+            <div id="zoning5">
+                <header>
+                    <p>zone du haut</p>
+                </header>
+                <nav>
+                    <p>zone du menu</p>
+                </nav>
+                <section>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                </section>
+                <footer>
+                    <p>zone du bas</p>
+                </footer>
+            </div>
+        </section>
+
+        <section>
+            <h4>Zoning 6</h4>
+            <div id="zoning6">
+                <header>
+                    <div id="logo"></div>
+                    <div id="slogan"></div>
+                    <div id="icones"></div>
+                    <div class="clear"></div>
+                </header>
+
+                <nav>
+                    <p>zone du menu</p>
+                </nav>
+
+                <main>
+                    <aside class="float6"></aside>
+
+                    <section class="float6">
+                        <div class="demi">A</div>
+                        <div class="demi">B</div>
+
+                        <div>C</div>
+
+                        <div class="quart">1</div>
+                        <div class="quart">2</div>
+                        <div class="quart">3</div>
+                        <div class="quart">4</div>
+                        <div class="clear"></div>
+                    </section>
+
+                    <div class="clear"></div>
+
+                </main>
+                <footer>
+                    <p>zone du bas</p>
+                </footer>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <!-- zone du bas, ex : liens administratis, mentions légales, plan su site, CGU, CGV, contact, copyright -->
+    </footer>
+</body>
+</html>

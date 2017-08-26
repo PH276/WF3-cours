@@ -1,0 +1,15 @@
+#my-div{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    /*transition: 2s;*/
+}
+
+#my-form{
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
